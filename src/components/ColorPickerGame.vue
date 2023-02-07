@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import {colorPicker } from '../composables/colorPicker'
+import {colorMatch } from '../composables/colorMatch';
 export default {
   setup() {
-    const { colors, message, matchColor } = colorPicker();
-  },
+    const { colors, message, matchColor } = colorMatch();
+  return { colors, message, matchColor };},
 };
 </script>
 

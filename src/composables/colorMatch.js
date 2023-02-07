@@ -1,6 +1,6 @@
 import {ref} from 'vue';
 
-export function colorPicker(){
+export function colorMatch(){
     const colors = ["green", "red", "blue", "purple"];
     let message = ref("Pick a color...");
 
